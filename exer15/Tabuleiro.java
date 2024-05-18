@@ -19,6 +19,8 @@ public class Tabuleiro {
     for (int i = 1; i <= n; i++) {
       if (i == n) {
         System.out.println("  " + i);
+      } else if (i == 1) {
+        System.out.print("    " + i + " ");
       } else {
         System.out.print("  " + i + " ");
       }
@@ -42,7 +44,8 @@ public class Tabuleiro {
         }
       }
 
-      System.out.print(j + caracteres + "\n");
+      String msgFinal = j < 10 ? " " + j + " " + caracteres + "\n" : j +  " " + caracteres + "\n";
+      System.out.print(msgFinal);
     }
   }
 }

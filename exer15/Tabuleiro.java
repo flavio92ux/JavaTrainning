@@ -8,14 +8,24 @@ public class Tabuleiro {
       } else {
         System.out.print("  " + i + " ");
       }
-      
     }
 
-    for (int j=1; j<=6; j++) {
+    for (int j = 1; j <= 6; j++) {
       String caracteres = "";
+      boolean isCerquilha = true;
 
-      for (int k=1; k <= j; k++) {
-        caracteres += " x  ";
+      for (int k = 1; k <= j; k++) {
+        if (j % 2 == 0) {
+          if (isCerquilha == true) {
+            caracteres += " #  ";
+            isCerquilha = !isCerquilha;
+          } else {
+            caracteres += " +  ";
+            isCerquilha = !isCerquilha;
+          }
+        } else {
+          caracteres += " x  ";
+        }
       }
 
       System.out.print(j + caracteres + "\n");

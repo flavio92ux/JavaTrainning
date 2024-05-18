@@ -1,4 +1,4 @@
-<a name="br1"></a> 
+<a href="http://www.decom.ufop.br/gustavo/bcc701/Pratica_08.pdf" name="br1">LINK DA LSITA</a> 
 
 Universidade Federal de Ouro Preto – UFOP
 

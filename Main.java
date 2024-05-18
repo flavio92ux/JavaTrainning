@@ -1,7 +1,7 @@
-import exer15.Tabuleiro;
+import exer23.Serie;
 
 public class Main {
     public static void main(String[] args) {
-        new Tabuleiro();
+        new Serie();
     }
 }

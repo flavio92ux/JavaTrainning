@@ -20,7 +20,7 @@ public class Tabuleiro {
       if (i == n) {
         System.out.println("  " + i);
       } else if (i == 1) {
-        System.out.print("    " + i + " ");
+        System.out.print("  " + i + " ");
       } else {
         System.out.print("  " + i + " ");
       }
